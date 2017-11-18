@@ -8,6 +8,12 @@ standard IIR filters such as Bessel, Butterworth,
 Elliptic and Chebychev. The data format is
 floating-point throughout.
 
+# System specification
+```
+ROS: kinetic
+Ubuntu: 16.04
+```
+
 # Usages
 Just copy this repository as a stanalone ROS package in your catkin workspace.
 Set your package depending on this pacakge named `iir_filters` in your `package.xml` and `CMakeLists.txt`.
