@@ -10,9 +10,12 @@ floating-point throughout.
 
 # Usages
 Just copy this repository as a stanalone ROS package in your catkin workspace.
+Set your package depending on this pacakge named `iir_filters` in your `package.xml` and `CMakeLists.txt`.
 
 In your project, use the filter like this
 ```cpp
+#include "iir_filters/Iir.h"
+
 // init filter
 Iir::Butterworth::LowPass<order> f;  // NOTE： here order should replaced by a int number!
 const float samplingrate = 1000; // Hz
