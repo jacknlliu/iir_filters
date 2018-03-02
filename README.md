@@ -31,3 +31,8 @@ f.setup (order, samplingrate, cutoff_frequency); // NOTE： here order should re
 // Realtime filtering sample by sample
 float y = f.filter(x); // here x is a float, and one dimension
 ```
+
+
+# Reference
+- [IIR filters repository](https://github.com/berndporr/iir1)
+- [iirob/iirob_filters](https://github.com/iirob/iirob_filters)
