@@ -35,4 +35,5 @@ float y = f.filter(x); // here x is a float, and one dimension
 
 # Reference
 - [IIR filters repository](https://github.com/berndporr/iir1)
-- [iirob/iirob_filters](https://github.com/iirob/iirob_filters)
+- [iirob/iirob_filters](https://github.com/KITrobotics/iirob_filters)
+- [KITrobotics/force_torque_sensor](https://github.com/KITrobotics/force_torque_sensor)
